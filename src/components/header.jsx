@@ -18,13 +18,6 @@ export default function Header() {
               <a href="#skills"className="inline-block px-4 py-2 text-slate-600 hover:bg-slate-100 rounded-full transition">Skills</a>
             </li>
           </ul>
-
-        <div className="flex justify-center md:justify-self-center">
-          <div className="relative w-20 h-20 md:w-20 md:h-20 rounded-full overflow-hidden shadow-xl border-4 border-white bg-black-500">
-            <img 
-              src="/dp.png"alt="" className="w-full h-full object-cover object-center" />
-          </div>
-        </div>
         </nav>
 
       </div>

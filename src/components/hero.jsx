@@ -19,12 +19,22 @@ export default function Hero() {
           <div>
           </div>
         </div>
+        <div>
+            <img 
+              src="/dp.png"alt="" className="w-100 h-100 object-cover object-left" />
+        </div>
 
       </div>
     </section>
-    <div>
-        
-    </div>
+    <div class="bg-white dark:bg-gray-800 ring shadow-xl ring-gray-900/5 h-77 w-105 bg-[url('./student.png')] bg-cover bg-full bg-center">
+  <h3 class="text-gray-900 dark:text-white mt-2 text-base font-medium tracking-tight ">Learning Management System</h3>
+  <p class="text-blue-500 dark:text-blue-400 mt-2 text-sm ">
+   Welcome to my Education learning management system, which adds the student and updated student marks.
+  </p>
+</div>
+
+
+
     </>
     
 
