@@ -27,6 +27,10 @@ export default function Hero() {
       </div>
     </section>
     <div class="bg-white dark:bg-gray-800 ring shadow-xl ring-gray-900/5 h-77 w-105 bg-[url('./student.png')] bg-cover bg-full bg-center">
+    <div >
+        <img bg-src="./student.png" alt="student.png " />
+
+    </div>
   <h3 class="text-gray-900 dark:text-white mt-2 text-base font-medium tracking-tight ">Learning Management System</h3>
   <p class="text-blue-500 dark:text-blue-400 mt-2 text-sm ">
    Welcome to my Education learning management system, which adds the student and updated student marks.
