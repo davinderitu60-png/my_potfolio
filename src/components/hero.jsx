@@ -21,7 +21,7 @@ export default function Hero() {
         </div>
 
         <div className="flex justify-center md:justify-self-end">
-          <div className="relative w-40 h-40 md:w-40 md:h-60 rounded-full overflow-hidden shadow-xl border-4 border-white bg-black-500">
+          <div className="relative w-20 h-40 md:w-20 md:h-20 rounded-full overflow-hidden shadow-xl border-4 border-white bg-black-500">
             <img 
               src="/dp.png"alt="" className="w-full h-full object-cover object-center" />
           </div>
