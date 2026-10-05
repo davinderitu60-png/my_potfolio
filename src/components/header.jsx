@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 bg-red-700 backdrop-blur-md border-b border-slate-200">
+    <header className="sticky top-0 z-50 bg-blue-200 backdrop-blur-md border-b border-slate-200">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-6">
         <a href="#home" className="text-xl font-bold text-indigo-600 tracking-tight shrink-0">MyPortfolio</a>
         <nav className="flex items-center overflow-x-auto no-scrollbar py-1">
@@ -20,7 +20,7 @@ export default function Header() {
           </ul>
 
         <div className="flex justify-center md:justify-self-center">
-          <div className="relative w-10 h-10 md:w-10 md:h-10 rounded-full overflow-hidden shadow-xl border-4 border-white bg-black-500">
+          <div className="relative w-20 h-20 md:w-20 md:h-20 rounded-full overflow-hidden shadow-xl border-4 border-white bg-black-500">
             <img 
               src="/dp.png"alt="" className="w-full h-full object-cover object-center" />
           </div>
