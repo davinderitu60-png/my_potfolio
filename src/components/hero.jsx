@@ -3,9 +3,10 @@ import Header from "./header";
 export default function Hero() {
   return (
     <>
-    <Header/>
+    <div >
+        <Header/>
     
-        <section id="home" className="min-h-[50vh] flex justify-center px-3 max-w-5xl mx-auto py-6">
+        <section id="home" className=" flex justify-center  py-6 ">
         <div className="w-full grid md:grid-cols-2 items-center gap-8">
             <div className="space-y-6 text-center md:text-left">
             <div>
@@ -29,16 +30,17 @@ export default function Hero() {
         <div >
         <div className="h-66 w-90">
             <img src="./student.png" alt="student.png " />
-            <h3 class="text-black mt-4 text-base font-medium tracking-tight ">Learning Management System</h3>
-            <p class="text-blue-400 mt-5 text-sm ">
+            <div>
+                 <h3 class="text-black  text-base font-medium">Learning Management System</h3>
+            <p class="text-blue-300 mt-6 text-sm ">
             Welcome to my Education learning management system, which adds the student and updated student marks.
-        </p>
-
+            </p>
+            </div>
+           
         </div>
         </div>
 
-
-
+    </div>
     </>
     
 
